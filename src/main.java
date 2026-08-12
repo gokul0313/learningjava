@@ -16,12 +16,13 @@ public class main {
           // filereadings.readfile.readfilebypath();
           // filereadings.readfile.readbylist();
           // filereadings.readfile.Writeinexistingfile();
-          serialization.Fileserialize.Unmarshal();
+          // serialization.Fileserialize.Unmarshal();
+        routinespractice.mythreads.Printthread(); 
       
           
         } catch(Exception e){
 
-          System.out.println("error :"+e);
+          System.out.println("error in main:"+e);
         }
 
 
